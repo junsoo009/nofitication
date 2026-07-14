@@ -9,7 +9,9 @@
       "Bash(wait)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/h2-console)",
       "Bash(lsof -ti:8080)",
-      "Bash(xargs kill)"
+      "Bash(xargs kill)",
+      "Bash(rm -rf /Users/kimjunsoo/Desktop/email_sender/src/main/java/com/notification/*)",
+      "Bash(curl -s -X POST \"http://localhost:8080/api/courses/10/enroll?userId=1\")"
     ]
   }
 }
